@@ -1,0 +1,10 @@
+SQL -> Structured Query Language
+
+CREATE DATABASE -> creating new database
+CREATE TABLE ->  creating new tables
+SELECT -> selects the data from the database
+ALTER TABLES -> altering or modifying Existing tables
+INSERT INTO -> inserting new data
+UPDATE -> update data in the databease
+DELETE  -> deletes data form database
+DROP TABLE -> deletes a table
