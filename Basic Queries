@@ -1,0 +1,18 @@
+create table students(rollno int, name varchar(20), age int, place varchar(20), gender varchar(5));
+insert into students values(1000, 'Maaia', 18, 'Ooty', 'F');
+insert into students values(1001, 'Amaya', 19, 'Bangalore', 'F');
+insert into students values(1002, 'Atharv', 18, 'Coimbatore', 'M');
+insert into students values(1003, 'Vedhaa', 19, 'Mumbai', 'F');
+insert into students values(1004, 'Aadhvik', 19, 'Madurai', 'M');
+insert into students values(1005, 'Ayini', 19, 'Hyderabad', 'F');
+insert into students values(1006, 'Taraa', 18, 'Coimbatore', 'F');
+insert into students values(1007, 'Dhruv', 19, 'Trichy', 'M');
+insert into students values(1008, 'Ahaana', 18, 'Tanjore', 'F');
+insert into students values(1009, 'Adhi', 19, 'Pune', 'M');
+insert into students values(10 10, 'Riya', 17, 'London', 'F');
+
+select name from students where age=18;
+
+select name from students order by name asc;
+select name from students where age=19 group by name;
+select rollno, name from students order by rollno desc;
