@@ -1,0 +1,12 @@
+Syntax:CREATE DATABASE database_name
+CRAETE DATABASE Student;
+show Databases;
+USE Student;
+
+Syntax:CREATE TABLE table_name;
+
+CREATE TABLE employee{
+empname varchar(20),
+empID int,
+empAge int
+};
